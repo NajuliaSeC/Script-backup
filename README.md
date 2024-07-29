@@ -2,7 +2,7 @@
 # Script de Backup usando Bash
 
 ## Descrição
- Este projeto contém um script Bash projetado para automatizar o processo de backup de um banco de dados MySQL e enviar o arquivo de backup para um servidor remoto
+ Este projeto contém um script Bash projetado para automatizar o processo de backup de um banco de dados MySQL e enviar o arquivo de backup para um servidor remoto.
 
 ## Estrutura do Script
 |Funções criadas | Funcionalidade |
@@ -15,7 +15,7 @@
 |ChecarIntegridade | Compara os hashes MD5 dos arquivos locais e remotos para garantir a integridade dos dados transferidos. |
 
 ## Exemplo de Utilização
-O ip da máquina linux (root) deve ser alterado para aquele a ser usado pelo usuário
+O ip da máquina linux (root) deve ser alterado para aquele a ser usado pelo usuário.
 ~~~
 ssh root@10.0.0.2 ls >/dev/null 2>&1
 ~~~
@@ -34,3 +34,5 @@ ssh root@10.0.0.2 ls >/dev/null 2>&1
 | md5sum      | Ferramenta para gerar hashes MD5 para verificação de integridade de arquivos. |
 | SSH         | Protocolo para acesso seguro e transferência de arquivos.                   |
 
+## Contribuições
+Contribuições são muito bem-vindas. Caso você encontre erros, bugs ou queira adicionar novas funções, sinta-se à vontade.
